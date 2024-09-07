@@ -1,0 +1,449 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat/Montserrat-Regular.ttf);
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+.main{
+    width: 100%;
+    height: 650px;
+    background-color: #202040;
+}
+.main-menu{
+    width: 90%;
+    height: 10vh;
+    display: flex;
+    margin: auto;
+    padding-top: 20px;
+    
+}
+.logo{
+    width: 15%;
+    height: 100%;
+}
+.menu{
+    width: 65%;
+    height: 100%;
+}
+.button{
+    width: 20%;
+    height: 100%;
+}
+.logo>a{
+    font-weight: 1000;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+.menu>ul{
+    list-style-type: none;
+    display: flex;
+    color: white;
+    padding-top: 10px;
+    font-size: 0.9rem;
+}
+.menu>ul>li{
+    padding-right: 40px;
+}
+.menu-2 ul{
+    width: 100px;
+    height: 100px;
+    list-style-type: none;
+    padding-top: 10px;
+    
+    
+}
+.menu-2 ul>li{
+    width: 150px;
+    height: 30px;
+    list-style-type: none;
+    background-color: white;
+    color: #202040;
+    padding: 10px 15px;
+    margin-left: -20px;
+    display: none;
+}
+.menu-2:hover ul>li{
+    display: block;
+}
+.Home{
+    color: #ff6363;
+}
+.Home:hover{
+    color: #ff6363;
+    transition: 0.2s;
+}
+.menu-2:hover{
+    color: #ff6363;
+    transition: 0.2s;
+}
+.Inner-Page:hover{
+    color: #ff6363;
+    transition: 0.2s;
+}
+.Contact:hover{
+    color: #ff6363;
+    transition: 0.2s;
+}
+.Menu-one:hover{
+    color: #ff6363;
+    transition: 0.2s;
+}
+.Menu-two:hover{
+    color: #ff6363;
+    transition: 0.2s;
+}
+.Menu-three:hover{
+    color: #ff6363;
+    transition: 0.2s;
+}
+.button{
+    padding-top: 10px;
+}
+.button>a{
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    text-decoration: none;
+}
+.button>a:hover{
+    background-color: #ff6363;
+    transition: 0.2s;
+    border: 1px solid #ff6363;
+}
+.slider-content{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+.content{
+    color: white;
+    line-height: 40px;
+    margin-top: 100px;
+}
+.content>h1{
+    font-weight: 900 !important;
+}
+.email{
+    background-color: white;
+    padding: 10px 20px;
+    width: 88%;
+    display: flex;
+    border-radius: 5px;
+}
+.i-text{
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.i-button{
+    border: none;
+    background-color: #ff6363;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.image>img{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.slant{
+    margin-top: -41px;
+}
+.slant>img{
+    width: 100%;
+}
+.brand-logo{
+    box-sizing: border-box;
+    background-color: #f2f5f9;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 1rem;
+}
+.brand-logo>img{
+    width: 210px;
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+.features{
+    background-color: #f2f5f9;
+    text-align: center;
+    padding-top: 70px;
+}
+.features>h4{
+    color: #ff6363;
+    font-weight: bolder;
+}
+.features>h1{
+    font-weight: bolder;
+    font-size: medium;
+    font-size: 30px;
+}
+.features>p{
+    line-height: 30px;
+}
+.card-features{
+    background-color: #f2f5f9;
+    width: 100%;
+}
+.card{
+    width: 90%;
+    margin: auto;
+}
+.card-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+.card-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+.cards{
+    width: 25%;
+    height: 250px;
+    color: #000839;
+}
+.cards>img{
+    width: 50px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+.cards>h4{
+    margin-bottom: 0.5rem;
+}
+.cards>p{
+    line-height: 1.8;
+    font-size: 14px;
+}
+.test{
+    background-color: #f2f5f9;
+    width: 100%;
+}
+.test1{
+    width: 85%;
+    display: flex;
+    height: 400px;
+    margin: auto;
+}
+.testimonals{
+    width: 50%;
+}
+.testimonals>h1{
+    color: #000839;
+    font-weight: bolder;
+}
+.testimonals>h4{
+    color: #ff6363;
+    font-weight: bolder;
+}
+.testimonals>p{
+    padding-top: 20px;
+}
+.button-1{
+    width: 100%;
+    margin-top: 20px;
+}
+.button-1>a{
+    color: white;
+    background-color: #ff6363;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+.test2{
+    width: 50%;
+    margin-top: 70px;
+    padding: 20px;
+    background-color: white;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(189, 189, 189, 0.247);
+}
+.test2-1{
+    display: flex;
+}
+.test2-1>img{
+    width: 80px;
+    border-radius: 50px;
+}
+.test2-1-text{
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.test2-1-text>h4{
+    color: #000839;
+}
+.test2-1-text>p{
+    color: #a0a4ab;
+}
+.test2-2{
+    color: #000839;
+    margin-top: 20px;
+}
+.arrow{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.arrow>h4{
+    border: 1px solid rgba(231, 231, 231, 0.884);
+    padding: 5px;
+    border-radius: 2px;
+    width: 30px;
+    font-size: 18px;
+    text-align: center;
+}
+.img{
+    width: 50%;
+}
+.img>img{
+    width: 100%;
+}
+.second{
+    padding-left: 80px;
+}
+.pricing{
+    color: #000839;
+    font-weight: bolder;
+}
+.pricing-button{
+  display: flex;
+  margin: auto;
+  padding-top: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ff6363;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+  input:checked + .slider {
+    background-color: #ff6363;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #ff6363;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  .discount{
+    padding: 5px 10px;
+    background-color: #ff6363;
+    color: white;
+    border-radius: 10px;
+    font-size: 10px;
+  }
+  .packages{
+    background-color: #f2f5f9;
+    display: flex;
+  }
+  .pack{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+  }
+  .packages-card{
+      display: flex;
+      width: 35%;
+      padding-top: 70px;
+      justify-content: space-around;
+    }
+    .packages-card1{
+        display: flex;
+        width: 35%;
+        padding-top: 70px;
+        justify-content: space-around;
+        background-color: white;
+        border-radius: 20px;
+      }
+  .packages-head{
+    text-align: center;
+  }
+  .packages-head>h3 ,p{
+    padding-bottom: 20px;
+  }
+  .packages-head>h1{
+    color: #ff6363;
+    font-weight: bolder;
+  }
+  .bullets{
+    display: flex;
+    gap: 5px;
+    text-align: left;
+  }
+  .bullets>i{
+    color: #000839;
+    font-size: 12px;
+    padding-top: 5px;
+  }
+  .btn{
+    display: flex;
+    padding: 15px 10px;
+    background-color: #ff6363;
+    color: white;
+    width: 150px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 25px;
+  }
